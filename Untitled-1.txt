@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+
+int xstrlen (char *s) {
+    int length=0;
+    while (*s!='\0')
+        s++;
+    return (length); }
+}
